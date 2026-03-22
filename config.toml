@@ -1,0 +1,183 @@
+baseURL = "https://3dprintrubber.com/"
+languageCode = "en-us"
+title = "3D Print Rubber"
+theme = "printwire"
+
+[params]
+tagline       = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
+description   = "3D Print Rubber covers additive manufacturing of elastomeric and rubber-like materials — TPU and TPE in FDM and SLS, silicone printing, and photopolymer flexible resins for soft goods and industrial seals."
+keywords      = "rubber 3D printing, TPU 3D print, flexible AM, elastomer additive manufacturing, silicone 3D printing, soft robotics printing, gasket 3D print"
+logoEmoji     = "🔴"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#ef4444"
+colorPrimaryDark  = "#dc2626"
+colorPrimaryLight = "#f87171"
+colorBgDark       = "#0a0404"
+colorBgSection    = "#0e0606"
+colorBgCard       = "#160909"
+colorBgCardHover  = "#1e0c0c"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"]
+
+heroEyebrow  = "Flexible & Elastomeric AM"
+heroTitle    = "3D Print <em>Rubber</em>"
+heroSubtitle = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"
+
+overviewTitle   = "Flexible Parts Without Tooling"
+overviewText    = "Shore A 30 to Shore D 60 — TPU in FDM, SLS nylon-elastomer blends, and photopolymer flexible resins deliver rubber-like parts without injection mould lead times."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Rubber Services"
+servicesSubtitle = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 30
+suffix = "–95A"
+label  = "Shore Hardness Range"
+
+[[params.stats]]
+count  = 400
+suffix = "%"
+label  = "Max Elongation at Break (TPU)"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "Custom Seal Lead Time"
+
+[[params.stats]]
+count  = 50
+suffix = "+"
+label  = "Flexible Material Systems"
+
+
+[[params.applications]]
+title       = "Industrial Seals & Gaskets"
+description = "Custom TPU seals, O-ring replacements, and precision gaskets for hydraulic and pneumatic systems."
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"
+
+[[params.applications]]
+title       = "Wearables & Soft Goods"
+description = "Flexible wristbands, sensor housings, medical wearables, and ergonomic grip components."
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"
+
+[[params.applications]]
+title       = "Soft Robotics"
+description = "Actuators, grippers, and pneumatic soft robot components in silicone and TPU."
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"
+
+[[params.applications]]
+title       = "Automotive & Footwear"
+description = "Midsoles, vibration dampers, weather seals, and bump stops in rubber-like materials."
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🔴"
+title       = "TPU FDM Printing"
+description = "Flexible TPU parts in Shore 85A–95A — custom seals, grips, and protective covers printed to ±0.3mm tolerance."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "SLS Elastomer Printing"
+description = "PA11 elastomer and TPU powder SLS for durable, isotropic flexible parts — no support removal, complex geometry."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Silicone Printing"
+description = "Direct ink writing and photocured silicone for biocompatible, heat-resistant, and food-safe applications."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Seal & Gasket Production"
+description = "Rapid replacement industrial seals — scan the worn part, print in TPU, ship within 48 hours."
+
+
+[[params.services]]
+name        = "TPU FDM Printing"
+description = "Flexible TPU parts in Shore 85A–95A — custom seals, grips, and protective covers printed to ±0.3mm tolerance."
+icon        = "🔴"
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80"
+
+[[params.services]]
+name        = "SLS Elastomer Printing"
+description = "PA11 elastomer and TPU powder SLS for durable, isotropic flexible parts — no support removal, complex geometry."
+icon        = "⚙️"
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80"
+
+[[params.services]]
+name        = "Silicone Printing"
+description = "Direct ink writing and photocured silicone for biocompatible, heat-resistant, and food-safe applications."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80"
+
+[[params.services]]
+name        = "Seal & Gasket Production"
+description = "Rapid replacement industrial seals — scan the worn part, print in TPU, ship within 48 hours."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintrubber.com"
+url         = "https://3dprintrubber.com"
+description = "Rubber & flexible 3D printing"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprintplastic.com"
+url         = "https://3dprintplastic.com"
+description = "Plastics 3D printing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
