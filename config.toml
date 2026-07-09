@@ -10,6 +10,7 @@ title = "3D Print Rubber"
       unsafe = true
 
 [params]
+ogImage       = "/images/01_hero_polymer.png"
 siteName      = "3D Print Rubber"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">RUBBER</span>'
 tagline       = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
