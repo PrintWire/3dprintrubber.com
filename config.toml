@@ -1,9 +1,17 @@
 baseURL = "https://3dprintrubber.com/"
 languageCode = "en-us"
 title = "3D Print Rubber"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Rubber"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">RUBBER</span>'
 tagline       = "Flexible and elastomeric 3D printing — TPU, silicone, and rubber-like materials for seals, gaskets, wearables, and soft robotics."
 description   = "3D Print Rubber covers additive manufacturing of elastomeric and rubber-like materials — TPU and TPE in FDM and SLS, silicone printing, and photopolymer flexible resins for soft goods and industrial seals."
 keywords      = "rubber 3D printing, TPU 3D print, flexible AM, elastomer additive manufacturing, silicone 3D printing, soft robotics printing, gasket 3D print"
